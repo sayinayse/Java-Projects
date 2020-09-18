@@ -22,13 +22,13 @@ public class Main {
 		return ports;
 }
 
-public static void main(String[] args) {
-	int[] options = {3, 7, 6, 10};
-	//int[] options = {3, 2, 4};
-	int x = 9;
-    int[] result = loadfromPorts(options, x);
-    System.out.println("Two ports with the sum " + x + " is (" + result[0] 
-                    + ", " + result[1] + ")");
+	public static void main(String[] args) {
+		int[] options = {3, 7, 6, 10};
+		//int[] options = {3, 2, 4};
+		int x = 9;
+    	int[] result = loadfromPorts(options, x);
+    	System.out.println("Two ports with the sum " + x + " is (" + result[0] 
+                   	 + ", " + result[1] + ")");
   }
 }
 
